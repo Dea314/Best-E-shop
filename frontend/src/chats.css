@@ -1,0 +1,96 @@
+.chat-btn {
+  position: fixed;
+  right: 1rem;
+  bottom: 2rem;
+  cursor: pointer;
+  background-color: blueviolet;
+  border-radius: 3.5rem;
+  width: 3rem;
+  height: 3rem;
+  color: #fff;
+  font-size: 1.5rem;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-btn .close {
+  display: none;
+}
+
+#check:checked ~ .chat-btn i {
+  display: block;
+}
+
+#check:checked ~ .chat-btn .comment {
+  display: none;
+}
+
+#check {
+  display: none !important;
+}
+
+#check:checked ~ .chat-wrapper {
+  opacity: 1;
+}
+
+.chat-wrapper {
+  opacity: 0;
+  position: fixed;
+  right: 1.5rem;
+  bottom: 5rem;
+  width: 19rem;
+  background-color: #fff;
+  border-radius: 0.7rem;
+  /* overflow: hidden;  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+  z-index: 2;
+  transition: all 0.3s ease;
+  margin-bottom: 0.5rem;
+}
+
+.chat-header {
+  background-color: blueviolet;
+  padding: 0.8rem;
+  margin-bottom: 0.7rem;
+  border-radius: 0.4rem;
+  color: #fff;
+  box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.2);
+}
+
+button.send {
+  background-color: blueviolet;
+  border-radius: 0.5rem;
+  color: #fff;
+}
+
+.chat-form {
+  padding: 0.6rem;
+}
+
+.chat-form input,
+.chat-form button,
+.chat-form textarea {
+  margin-bottom: 0.6rem;
+}
+
+.chat-form textarea {
+  resize: none;
+}
+
+.form-control:focus,
+.btn:focus {
+  box-shadow: none;
+}
+
+.bg-msg {
+  background-color: blueviolet;
+  margin-right: 0.4rem;
+}
+
+.chat-msg {
+  max-height: 17rem;
+  margin: 0.2rem;
+  overflow-y: auto;
+}

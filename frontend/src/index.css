@@ -1,0 +1,75 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 170px;
+}
+
+.navbar {
+  background-color: #4e8eca;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1.5rem 0;
+}
+
+.find-place {
+  background-color: #cae2f8;
+  font-size: 1rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+  padding: 1rem 0;
+}
+
+.car-1,
+.car-3,
+.car-5,
+.car-6 {
+  font-size: 2rem;
+}
+
+h3 {
+  padding: 1rem 0;
+  font-weight: bold;
+}
+
+.car-2,
+.car-4,
+.car-6 {
+  color: rgb(0, 0, 0);
+  background-color: rgba(240, 248, 255, 0.4);
+  display: block;
+  margin: 2rem 0;
+  font-size: 2rem;
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+}
+
+.car-21 {
+  margin: 2rem 0;
+  color: rgb(0, 0, 0);
+  background-color: rgba(240, 248, 255, 0.4);
+  display: block;
+  font-size: 1.5rem;
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+}
+
+.card {
+  max-width: 40rem;
+  max-height: fit-content;
+  padding: 0;
+  margin: 10px;
+}
+
+.user-chat {
+  background-color: rgb(96, 170, 240);
+  border-radius: 1rem;
+}
