@@ -20,7 +20,7 @@ const CartItem = ({
           </Col>
           <Col md={2}>{item.name}</Col>
           <Col md={2}>
-            <b>${item.price}</b>
+            <b>{item.price} €</b>
           </Col>
           <Col md={3}>
             <Form.Select

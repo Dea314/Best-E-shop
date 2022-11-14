@@ -14,7 +14,7 @@ const ProductForList = ({
   return (
     <Card style={{ marginTop: "1.5rem", marginBottom: "3.5rem" }}>
       <Row>
-        <Col lg={7} className="m-auto">
+        <Col lg={6} className="m-auto">
           <Card.Img
             className="d-block mx-auto img-fluid "
             style={{ maxWidth: "500px", height: "auto", paddingLeft: ".5rem" }}
@@ -23,7 +23,7 @@ const ProductForList = ({
             src={images[0] ? images[0].path : ""}
           />
         </Col>
-        <Col lg={5}>
+        <Col lg={6}>
           <Card.Body>
             <Card.Title>{name}</Card.Title>
             <Card.Text style={{ textAlign: "justify" }}>

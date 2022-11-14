@@ -12,7 +12,7 @@ import { Rating } from "react-simple-star-rating";
 import AddedToCartMessage from "../../components/AddedToCartMessage";
 import ImageZoom from "js-image-zoom";
 import { useEffect, useState, useRef } from "react";
-import MetaComponent from "../../components/MetaComponent";
+import Meta from "../../components/Meta";
 import { useParams } from "react-router-dom";
 
 const ProductDetailsPage = ({
@@ -102,7 +102,7 @@ const ProductDetailsPage = ({
 
   return (
     <>
-      <MetaComponent title={product.name} description={product.description} />
+      <Meta title={product.name} description={product.description} />
       <Container>
         <AddedToCartMessage
           showCartMessage={showCartMessage}

@@ -160,8 +160,7 @@ const AnalyticsPage = ({
       </Col>
       <Col md={10}>
         <h1>
-          Black Friday Cumulative Revenue {firstDateToCompare} VS{" "}
-          {secondDateToCompare}
+          Cumulative Revenue {firstDateToCompare} VS {secondDateToCompare}
         </h1>
         <Form.Group controlId="firstDateToCompare">
           <Form.Label>Select First Date To Compare</Form.Label>
@@ -204,7 +203,7 @@ const AnalyticsPage = ({
               allowDuplicatedCategory={false}
             />
             <YAxis
-              label={{ value: "REVENUE $", angle: -90, position: "insideLeft" }}
+              label={{ value: "REVENUE €", angle: -90, position: "insideLeft" }}
             />
             <Tooltip />
             <Legend verticalAlign="top" height={36} />
