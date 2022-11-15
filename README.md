@@ -9,4 +9,4 @@ Welcome to my fully functional MERN Ecommerce Website
 
 ![alt text](https://firebasestorage.googleapis.com/v0/b/dea-all.appspot.com/o/eshop.png?alt=media&token=f6e548ac-818d-4b27-b518-a462c9dd6b5e)
 
-[![Best E-shop]<img src="https://firebasestorage.googleapis.com/v0/b/dea-all.appspot.com/o/new-dflogo.png?alt=media&token=276ef814-f0c1-4d0d-8235-99a0dbcf0a0b" width="100" height="100">]()
+[<img src="https://firebasestorage.googleapis.com/v0/b/dea-all.appspot.com/o/new-dflogo.png?alt=media&token=276ef814-f0c1-4d0d-8235-99a0dbcf0a0b" width="100" height="100">]()
