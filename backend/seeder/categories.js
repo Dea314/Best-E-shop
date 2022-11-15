@@ -58,7 +58,7 @@ const categories = [
   {
     name: "Computers",
     description:
-      "Computers - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
+      "Computers - It is hard to imagine life nowadays without computers. In the comfort of your home, you can easily find in our online shop something for you.",
     image: "/images/computers-category.png",
     attrs: [
       {
@@ -87,13 +87,13 @@ const categories = [
   {
     name: "Monitors",
     description:
-      "Monitors - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
+      "Monitors - Computer monitors come in a variety of sizes, from 12-inch up to 65-inch panels that bridge the gap between monitors and TVs. Between the two extremes, you can find something for yourself.",
     image: "/images/monitors-category.png",
   },
   {
     name: "Tablets",
     description:
-      "Tablets - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
+      "Tablets - The tablet is a practical mixture of a laptop and mobile phone and can be used anywhere thanks to its compactness.",
     image: "/images/tablets-category.png",
   },
 
@@ -127,69 +127,3 @@ const categories = [
 ];
 
 module.exports = categories;
-
-// {
-//   name: "Computers/Laptops",
-//   description:
-//     "Computers/Laptops - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
-//   image: "/images/laptops-category.png",
-//   attrs: [
-//     {
-//       key: "RAM",
-//       value: [
-//         "16 GB",
-//         "32 GB",
-//         "64 GB",
-//         "128 GB",
-//         "512 GB",
-//         "1 TB",
-//         "2 TB",
-//         "4 TB",
-//       ],
-//     },
-//     { key: "color", value: ["blue", "red", "silver", "black"] },
-//   ],
-// },
-
-// {
-//   name: "Computers/PC",
-//   description:
-//     "Computers/PC - ThinkPad X1 Nano Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus similique placeat at nisi autem eaque molestiae velit.",
-//   image: "/images/pc-category.png",
-//   attrs: [
-//     {
-//       key: "RAM",
-//       value: [
-//         "16 GB",
-//         "32 GB",
-//         "64 GB",
-//         "128 GB",
-//         "512 GB",
-//         "1 TB",
-//         "2 TB",
-//         "4 TB",
-//       ],
-//     },
-//     { key: "color", value: ["blue", "red", "silver", "black"] },
-//   ],
-// },
-// {
-//   name: "Tablets/Huawei",
-//   description:
-//     "Tablets - Games, internet, and multimedia - shop the latest tablets. Many use a tablet every day in their free time and at work for viewing presentations, video-conferencing, reading e-books, watching movies, sharing photos, and more",
-//   image: "/images/huawei.png",
-//   attrs: [
-//     { key: "RAM", value: ["1 TB", "2 TB", "4 TB"] },
-//     { key: "color", value: ["blue", "red", "silver", "black"] },
-//   ],
-// },
-// {
-//   name: "Tablets/Samsung",
-//   description:
-//     "Tablets - Games, internet, and multimedia - shop the latest tablets. Many use a tablet every day in their free time and at work for viewing presentations, video-conferencing, reading e-books, watching movies, sharing photos, and more",
-//   image: "/images/samsung.png",
-//   attrs: [
-//     { key: "RAM", value: ["1 TB", "2 TB", "4 TB"] },
-//     { key: "color", value: ["blue", "red", "silver", "black"] },
-//   ],
-// },
