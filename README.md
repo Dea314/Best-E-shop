@@ -4,7 +4,7 @@ Welcome to my fully functional MERN Ecommerce Website
 
 ## Introduction
 
-### MERN project
+#### MERN project
 
 - you can register or log in as a user, buy some products, pay with credit cards or PayPal, write reviews, and rate products.
 - as an admin, you can add, update or delete products - name, description, count in stock, price, attributes (color, size... etc), and images. You can edit or delete users and products, you can see all user's orders, follow selling analytics, and chat with users.
