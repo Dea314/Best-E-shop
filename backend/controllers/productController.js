@@ -132,7 +132,7 @@ const getBestsellers = async (req, res, next) => {
       { $replaceWith: "$doc_with_max_sales" }, // replace with first item
       { $match: { sales: { $gt: 0 } } }, // match only items with sales > 0
       { $project: { _id: 1, name: 1, images: 1, category: 1, description: 1 } }, // select only those fields
-      { $limit: 3 },
+      { $limit: 5 },
     ]);
     res.json(products);
   } catch (error) {
