@@ -8,7 +8,19 @@ const Footer = () => {
         <Row className="mt-5">
           <Col className="bg-secondary text-center py-4">
             Copyright &copy; {new Date().getFullYear()} - All Rights Reserved -
-            Made with ❤️ by Dea314{"  "}
+            Made with ❤️ by
+            <a
+              href="https://github.com/Dea314"
+              target="_blank"
+              rel="noreferrer"
+              style={{
+                color: "orange",
+                paddingLeft: "10px",
+                paddingRight: "10px",
+              }}
+            >
+              Dea314
+            </a>
             <span>
               <img
                 className="logo"
